@@ -1,3 +1,0 @@
-# VHDL
-
-Various VHDL Projects
