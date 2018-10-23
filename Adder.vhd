@@ -10,5 +10,5 @@ ARCHITECTURE BEHAVIOR of Adder IS
 BEGIN
 	s <= X xor Y xor cin;
 	cout <= (x and y) OR (cin AND x) OR (cin AND y);
-End behavior;
+End BEHAVIOR;
 
