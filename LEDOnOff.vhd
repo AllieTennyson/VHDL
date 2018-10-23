@@ -11,10 +11,6 @@ ARCHITECTURE behavior OF Lab5 IS
 	
 
 BEGIN
-	--LED(0) <= SignalYes;
-	--LED(1) <= SignalYes;
-	--LED(2) <= SignalNo;
-	--LED(3) <= SignalNo;
 	PROCESS (Switch0, Switch1, Power)
 	BEGIN
 		If Switch0 = '1' THEN
