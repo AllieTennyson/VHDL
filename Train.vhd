@@ -1,12 +1,12 @@
  LIBRARY IEEE;
 USE IEEE.STD_LOGIC_1164;
 
-ENTITY ------ IS
-PORT(clock, Reset, W:IN STD_LOGIC;
-		y				  :OUT STD_LOGIC);
-END ------;
+ENTITY Train IS
+PORT(clock, Reset, w:IN STD_LOGIC;
+		   y:OUT STD_LOGIC);
+END Train;
 
-ARCHITECTURE BEHAVIOR OF ------ IS
+ARCHITECTURE BEHAVIOR OF Train IS
 	TYPE STATETYPE IS (start, detect1, detect10, detect101);
 	SIGNAL CurState : StateType;
 BEGIN
